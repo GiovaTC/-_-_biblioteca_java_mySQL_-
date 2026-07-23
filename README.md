@@ -1,7 +1,9 @@
 # -_-_biblioteca_java_mySQL_- :.
 # 📚 BibliotecaJavaMySQL:
 
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/dd0c5385-14b1-4a20-ad21-0fac886e948d" />  
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/dd0c5385-14b1-4a20-ad21-0fac886e948d" />    
+
+<img width="2549" height="1038" alt="image" src="https://github.com/user-attachments/assets/fc6e395e-aa1a-4ff6-9a30-1aa6b42618c3" />    
 
 ```
 Proyecto muy básico para practicar **Java 21 + IntelliJ IDEA + Consola + MySQL 8 + JDBC**.
