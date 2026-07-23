@@ -243,5 +243,5 @@ public class Menu {
         scanner.nextLine(); // limpiar buffer
 
         return numero;
-    }   
+    }
 }
