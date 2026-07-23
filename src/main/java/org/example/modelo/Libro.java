@@ -132,5 +132,26 @@ public class Libro {
     // =====================================================
     // toString()
     // =====================================================
+    @Override
+    public String toString() {
+
+        return """
+                ----------------------------------------
+                ID          : %d
+                Título      : %s
+                Autor       : %s
+                Editorial   : %s
+                Año         : %d
+                Disponible  : %s
+                ----------------------------------------
+                """.formatted(
+                        id,
+                    titulo,
+                     autor,
+                    editorial,
+                    anio,
+                    disponible ? "Sí" : "No"
+        );
+    }
 }
 
