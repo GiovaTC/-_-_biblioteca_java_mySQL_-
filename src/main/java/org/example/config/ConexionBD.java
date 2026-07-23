@@ -28,7 +28,7 @@ public class ConexionBD {
             "jdbc:mysql://localhost:3306/biblioteca_db?useSSL=false&serverTimezone=UTC";
     private static final String USUARIO = "root";
     private static final String PASSWORD = "Tapiero123";  // Cambiar por tu contraseña
-    private Connection conexion;
+    private static Connection conexion;
 
 
     /**
@@ -43,7 +43,7 @@ public class ConexionBD {
      *
      * @return Connection
      */
-    public Connection conectar() {
+    public static Connection conectar() {
 
         try {
             if (conexion == null || conexion.isClosed()) {

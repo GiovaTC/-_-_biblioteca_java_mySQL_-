@@ -19,6 +19,7 @@ public class Libro {
     private String editorial;
     private int anio;
     private boolean disponible;
+    private String isbn;
 
 
     /**
@@ -152,6 +153,14 @@ public class Libro {
                     anio,
                     disponible ? "Sí" : "No"
         );
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 }
 
