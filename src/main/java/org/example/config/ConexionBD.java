@@ -88,5 +88,5 @@ public class ConexionBD {
             System.out.println(e.getMessage());
             System.out.println("-----------------------------------------");
         }
-    }   
+    }
 }
